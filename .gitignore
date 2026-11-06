@@ -1,0 +1,15 @@
+# secrets: never commit
+firmware/gateway/include/secrets.h
+firmware/node/include/secrets.h
+dashboard/.env
+ai/.env
+*.pem
+# generated data and models
+data/*.csv
+models/*.joblib
+__pycache__/
+*.pyc
+.venv/
+# PlatformIO build output
+.pio/
+.vscode/
